@@ -5,10 +5,10 @@
 
 class Canvas{
     public:
-        Memento* captureCurrent();
-        void undoAction(Memento* prev);
+        Memento* captureCurrent(); //create
+        void undoAction(Memento* prev); // set
     private:
-        Shape* shapes;
+        Shape* shapes; 
 };
 
 #endif
