@@ -2,7 +2,7 @@
 
 Memento* Canvas::captureCurrent(){
     // make sure shape exists
-    if(!this->shapes) return NULL; // could be nullptr now for c++11 we can decide 
+    if(!this->shapes) return nullptr; // could be nullptr now for c++11 we can decide 
     //should be successful 
     Memento* memento = new Memento(this->shapes);
     return memento;
